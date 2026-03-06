@@ -1,0 +1,10 @@
+aws_region           = "us-east-1"
+project              = "reto19"
+environment          = "staging"
+vpc_cidr             = "10.1.0.0/16"
+public_subnet_cidrs  = ["10.1.1.0/24", "10.1.2.0/24"]
+private_subnet_cidrs = ["10.1.3.0/24", "10.1.4.0/24"]
+enable_nat_gateway   = true
+instance_type        = "t3.small"
+root_volume_size     = 30
+use_asg              = false
